@@ -9,9 +9,9 @@ This Fiji (ImageJ) macro script is designed for automated detection and morphome
 5. Saves results and processed images in the specified output directory.
 
 ## Pre-requisites
-- **Fiji (ImageJ)**
-- **Cellpose**
-- **BIOP Plugin** - to use Cellpose Advanced
+- [Fiji (ImageJ) Installation](https://fiji.sc)
+- [Cellpose Installation](https://cellpose.readthedocs.io/en/latest/installation.html)
+- [BIOP Cellpose Wrapper Manual](https://github.com/BIOP/ijp-imagetoools/wiki/Cellpose) - to use Cellpose Advanced in Fiji.
 - **MorphoLibJ Plugin**
 
 ## Step-by-Step Instructions
