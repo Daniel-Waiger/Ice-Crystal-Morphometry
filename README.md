@@ -69,62 +69,23 @@ When performing morphometry analysis, various parameters are used to quantify th
 
 ## Morphometry Parameters
 
-### 1. Pixel Count
-- **Description**: The total number of pixels that make up the object.
-- **Significance**: Provides a basic measure of the object's size.
-
-### 2. Area
-- **Description**: The total area covered by the object in square microns.
-- **Significance**: Indicates the size of the object.
-
-### 3. Perimeter
-- **Description**: The length of the boundary around the object.
-- **Significance**: Helps in understanding the object's boundary characteristics and complexity.
-
-### 4. Circularity
-- **Description**: A measure of how close the shape of the object is to a perfect circle.
-- **Formula**: Circularity = (4 × π × Area) / (Perimeter^2)
-- **Significance**: A circularity value of 1 indicates a perfect circle, while values closer to 0 indicate more elongated or irregular shapes.
-
-### 5. Bounding Box
-- **Description**: The smallest rectangle (aligned with the axes) that completely encloses the object.
-- **Significance**: Useful for calculating the extent and positioning of the object.
-
-### 6. Centroid
-- **Description**: The center of mass of the object.
-- **Significance**: Provides the coordinates of the object's geometric center.
-
-### 7. Equivalent Ellipse
-- **Description**: An ellipse that has the same normalized second central moments as the object.
-- **Significance**: Used to describe the shape and orientation of the object.
-
-### 8. Ellipse Elongation
-- **Description**: The ratio of the major axis to the minor axis of the equivalent ellipse.
-- **Significance**: Indicates how elongated the object is.
-
-### 9. Convexity
-- **Description**: The ratio of the object's area to the area of its convex hull (the smallest convex shape that encloses the object).
-- **Significance**: Values close to 1 indicate the object is more convex (less concave indentations).
-
-### 10. Maximum Feret Diameter
-- **Description**: The longest distance between any two points along the boundary of the object.
-- **Significance**: Provides a measure of the object's maximum dimension.
-
-### 11. Geodesic Tortuosity
-- **Description**: A measure of the complexity of the object's shape, considering its internal path lengths.
-- **Significance**: Higher values indicate more complex and winding shapes.
-
-### 12. Maximum Inscribed Disc
-- **Description**: The diameter of the largest circle that can fit inside the object without crossing its boundary.
-- **Significance**: Provides insight into the object's internal size and constraints.
-
-### 13. Average Thickness
-- **Description**: The average distance across the object, considering all internal points.
-- **Significance**: Useful for understanding the overall "thickness" of the object.
-
-### 14. Geodesic Elongation
-- **Description**: The ratio of the maximum geodesic distance (shortest path within the object) to the diameter of the maximum inscribed disc.
-- **Significance**: Indicates the elongation of the object based on its internal path lengths.
+| Parameter                | Description                                                                                                  | Significance                                                                                                 |
+|--------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Pixel Count**          | The total number of pixels that make up the object.                                                          | Provides a basic measure of the object's size.                                                               |
+| **Area**                 | The total area covered by the object in square microns.                                                      | Indicates the size of the object.                                                                            |
+| **Perimeter**            | The length of the boundary around the object.                                                                | Helps in understanding the object's boundary characteristics and complexity.                                 |
+| **Circularity**          | A measure of how close the shape of the object is to a perfect circle.                                       | A circularity value of 1 indicates a perfect circle, while values closer to 0 indicate more elongated or irregular shapes. |
+|                          | **Formula**: Circularity = (4 × π × Area) / (Perimeter^2)                                                    |                                                                                                              |
+| **Bounding Box**         | The smallest rectangle (aligned with the axes) that completely encloses the object.                          | Useful for calculating the extent and positioning of the object.                                             |
+| **Centroid**             | The center of mass of the object.                                                                            | Provides the coordinates of the object's geometric center.                                                   |
+| **Equivalent Ellipse**   | An ellipse that has the same normalized second central moments as the object.                                | Used to describe the shape and orientation of the object.                                                    |
+| **Ellipse Elongation**   | The ratio of the major axis to the minor axis of the equivalent ellipse.                                     | Indicates how elongated the object is.                                                                       |
+| **Convexity**            | The ratio of the object's area to the area of its convex hull (the smallest convex shape that encloses the object). | Values close to 1 indicate the object is more convex (less concave indentations).                            |
+| **Maximum Feret Diameter** | The longest distance between any two points along the boundary of the object.                                | Provides a measure of the object's maximum dimension.                                                        |
+| **Geodesic Tortuosity**  | A measure of the complexity of the object's shape, considering its internal path lengths.                    | Higher values indicate more complex and winding shapes.                                                      |
+| **Maximum Inscribed Disc** | The diameter of the largest circle that can fit inside the object without crossing its boundary.              | Provides insight into the object's internal size and constraints.                                            |
+| **Average Thickness**    | The average distance across the object, considering all internal points.                                     | Useful for understanding the overall "thickness" of the object.                                              |
+| **Geodesic Elongation**  | The ratio of the maximum geodesic distance (shortest path within the object) to the diameter of the maximum inscribed disc. | Indicates the elongation of the object based on its internal path lengths.                                   |
 
 These parameters collectively provide a comprehensive understanding of the geometric and structural properties of the detected objects, allowing for detailed analysis and comparison.
 
