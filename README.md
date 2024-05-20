@@ -1,4 +1,4 @@
-# Ice Crystal Morphometry in FIji/ImageJ
+# Ice Crystal Morphometry in Fiji/ImageJ
 
 
 This Fiji (ImageJ) macro script is designed for automated detection and morphometry analysis of ice crystals in merged TIF images. The script performs the following tasks:
