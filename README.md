@@ -11,7 +11,7 @@ This Fiji (ImageJ) macro script is designed for automated detection and morphome
 ## Pre-requisites
 - [Fiji (ImageJ) Installation](https://fiji.sc)
 - [Cellpose Installation](https://cellpose.readthedocs.io/en/latest/installation.html)
-- [BIOP Cellpose Wrapper Manual](https://github.com/BIOP/ijp-imagetoools/wiki/Cellpose) - to use Cellpose Advanced in Fiji.
+- [BIOP Cellpose Wrapper Manual](https://github.com/BIOP/ijl-utilities-wrappers?tab=readme-ov-file#cellpose) - to use Cellpose Advanced in Fiji.
 - **MorphoLibJ Plugin**
 
 ## Step-by-Step Instructions
@@ -20,7 +20,20 @@ This Fiji (ImageJ) macro script is designed for automated detection and morphome
 1. Open Fiji (ImageJ).
 2. Open the script editor (Plugins > New > Macro).
 3. Copy and paste the provided macro code into the editor.
-4. Run the macro (Macros > Run).
+   - Or, you can drag-and-drop the macro file onto Fiji's main toolbar, [ice-crystal-morphometry-analysis.ijm](https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/blob/main/ice-crystal-morphometry-analysis.ijm).
+
+<p align="center">
+  <img src="https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/assets/55537771/8abb6d99-0120-431d-898a-4f6cf91000a6" alt="Fiji Toolbar" style="width: 50%;" />
+</p>
+  
+5. Run the macro (Run button in the script editor).
+
+<p align="center">
+  <img src="https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/assets/55537771/1882307d-c1f7-4871-a5eb-b3c939fc69a9" alt="script-editor-gui" style="width: 50%;">
+</p>
+
+
+
 
 ### 2. Select Input and Output Folders
 - The macro will prompt you to choose a directory containing the image files (input folder) and a directory to save the results (output folder).
