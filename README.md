@@ -23,13 +23,13 @@ This Fiji (ImageJ) macro script is designed for automated detection and morphome
    - Or, you can drag-and-drop the macro file onto Fiji's main toolbar, [ice-crystal-morphometry-analysis.ijm](https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/blob/main/ice-crystal-morphometry-analysis.ijm).
 
 <p align="center">
-  <img src="https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/assets/55537771/8abb6d99-0120-431d-898a-4f6cf91000a6" alt="Fiji Toolbar" style="width: 50%;" />
+  <img src="https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/assets/55537771/8abb6d99-0120-431d-898a-4f6cf91000a6" alt="Fiji Toolbar" style="width: 75%;" />
 </p>
   
 5. Run the macro (Run button in the script editor).
 
 <p align="center">
-  <img src="https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/assets/55537771/1882307d-c1f7-4871-a5eb-b3c939fc69a9" alt="script-editor-gui" style="width: 50%;">
+  <img src="https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/assets/55537771/1882307d-c1f7-4871-a5eb-b3c939fc69a9" alt="script-editor-gui" style="width: 75%;">
 </p>
 
 
