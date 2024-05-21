@@ -8,6 +8,14 @@ This Fiji (ImageJ) macro script is designed for automated detection and morphome
 4. Uses Cellpose Advanced for crystal detection and MorphoLibJ for morphometry analysis.
 5. Saves results and processed images in the specified output directory.
 
+## Short Workfllow Example - From Left to Right: Raw → Cellpose Label Image Without Border Labels → Ellipsoid Image.
+
+<div style="display: flex; justify-content: center;">
+  <img src="https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/assets/55537771/1dfc3437-417f-42eb-afd4-df74fad58d8e" alt="raw-image" style="width: 33%; vertical-align: top;" />
+  <img src="https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/assets/55537771/5507fdbf-0a55-4bae-8a78-56f7dc1f7ef5" alt="cellpose-label-image" style="width: 33%; vertical-align: top;" />
+  <img src="https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/assets/55537771/a9b0506d-1f33-47fb-a576-43b477b42e42" alt="ellipsoid-image" style="width: 33%; vertical-align: top;" />
+</div>
+
 ## Pre-requisites
 - [Fiji (ImageJ) Installation](https://fiji.sc)
 - [Cellpose Installation](https://cellpose.readthedocs.io/en/latest/installation.html)
