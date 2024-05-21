@@ -21,7 +21,7 @@ This Fiji (ImageJ) macro script is designed for automated detection and morphome
 - [Cellpose Installation](https://cellpose.readthedocs.io/en/latest/installation.html)
 ### Plugins and how to install them:
    - [BIOP Cellpose Wrapper Manual](https://github.com/BIOP/ijl-utilities-wrappers?tab=readme-ov-file#cellpose) - to use Cellpose Advanced in Fiji.
-   - [MorphoLibJ Plugin] (https://imagej.net/plugins/morpholibj) - Wiki.
+   - [MorphoLibJ Plugin](https://imagej.net/plugins/morpholibj) - Wiki.
       - [How to install plugins in Fiji](https://www.youtube.com/watch?v=DFz9xmWi63I&t=47s&ab_channel=Lost-in-the-Shell)
       - [Fiji FAQ - Quick How-to Manual](https://imagej.net/learn/faq)
 
