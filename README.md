@@ -31,7 +31,7 @@ This Fiji (ImageJ) macro script is designed for automated detection and morphome
 1. Open Fiji (ImageJ).
 2. Open the script editor (Plugins > New > Macro).
 3. Copy and paste the provided macro code into the editor.
-   - Or, you can drag-and-drop the macro file onto Fiji's main toolbar, [ice-crystal-morphometry-analysis.ijm](https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/blob/main/ice-crystal-morphometry-analysis.ijm).
+   - Or, you can drag-and-drop the macro file onto Fiji's main toolbar, [ice-crystal-morphometry-analysis-GUI.ijm](https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/blob/main/ice-crystal-morphometry-analysis-GUI.ijm).
 
 <p align="center">
   <img src="https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/assets/55537771/8abb6d99-0120-431d-898a-4f6cf91000a6" alt="Fiji Toolbar" style="width: 75%;" />
