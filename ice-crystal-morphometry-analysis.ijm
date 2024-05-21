@@ -67,8 +67,7 @@ function processImage(dir, fileName) {
       "  dimensionmode=2D\n" +
       "  stitch_threshold=-1.0\n" +
       "  omni=false\n" +
-      "  cluster=false\n" +
-      "	  GPU=true\n" + 
+      "  cluster=false\n" + 
       "  additional_flags=\n\n");
       
       
