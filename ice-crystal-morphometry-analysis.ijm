@@ -3,7 +3,9 @@
 
 macro "Ice Crystal Morphometry" {
     // Initialize the console for logging progress and outputs
+    run("Close Fiji Console");
     run("Console");
+    close("Log");
     IJ.log("Starting ice crystal detection and morphometry.");
     
     // Prompt user to select a directory containing the image files to be processed
