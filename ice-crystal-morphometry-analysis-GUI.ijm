@@ -125,21 +125,3 @@ function processImage(inputDir, outputDir, fileName, useGPU) {
     close("*");
 }
 
-flowchart TD
-    A[Start] --> B[Initialize Console]
-    B --> C[Create User Dialog]
-    C --> D[Retrieve User Inputs]
-    D --> E[Set Measurement Parameters]
-    E --> F{Iterate Through Files}
-    F -->|For Each File| G[Check File Suffix]
-    G --> H{Valid File?}
-    H -->|Yes| I[Process Image]
-    H -->|No| F
-    I --> J[Open Image]
-    J --> K[Set Image Properties]
-    K --> L[Enhance Image]
-    L --> M[Detect Crystals]
-    M --> N[Analyze Morphometry]
-    N --> O[Save Results]
-    O --> F
-    F --> P[End]
