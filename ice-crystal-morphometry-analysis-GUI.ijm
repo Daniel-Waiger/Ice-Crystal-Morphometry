@@ -124,3 +124,4 @@ function processImage(inputDir, outputDir, fileName, useGPU) {
     saveAs("Tiff", outputDir + File.separator + shortName + "-detection-label-img.tif"); // Save the equivalent ellipse image
     close("*");
 }
+
